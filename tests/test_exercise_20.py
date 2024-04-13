@@ -32,7 +32,7 @@ class TestExercise20(CustomTestCase):
 
         inputs = ["15"]
         output = self.run_exercise(inputs)
-        expected_output = "1 3 5 7 9 11 13 15 "
+        expected_output = "1 3 5 7 9 11 13 15"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 
@@ -43,7 +43,7 @@ class TestExercise20(CustomTestCase):
 
         inputs = ["8"]
         output = self.run_exercise(inputs)
-        expected_output = "1 3 5 7 "
+        expected_output = "1 3 5 7"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 
@@ -54,7 +54,7 @@ class TestExercise20(CustomTestCase):
 
         inputs = ["5"]
         output = self.run_exercise(inputs)
-        expected_output = "1 3 5 "
+        expected_output = "1 3 5"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 
@@ -65,7 +65,7 @@ class TestExercise20(CustomTestCase):
 
         inputs = ["1"]
         output = self.run_exercise(inputs)
-        expected_output = "1 "
+        expected_output = "1"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 
@@ -76,7 +76,7 @@ class TestExercise20(CustomTestCase):
 
         inputs = ["10"]
         output = self.run_exercise(inputs)
-        expected_output = "1 3 5 7 9 "
+        expected_output = "1 3 5 7 9"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 
@@ -87,7 +87,7 @@ class TestExercise20(CustomTestCase):
 
         inputs = ["20"]
         output = self.run_exercise(inputs)
-        expected_output = "1 3 5 7 9 11 13 15 17 19 "
+        expected_output = "1 3 5 7 9 11 13 15 17 19"
         self.assertInCustom(expected=expected_output, actual=output,
                             input_value=inputs)
 

@@ -11,6 +11,13 @@ class TestExercise21(CustomTestCase):
 
         self.assertUsesLoops()
 
+    def test_no_math_module_usage(self):
+        """
+        The program should not use the 'math' module.
+        """
+
+        self.assetNotUseMathModule()
+
     def test_factorial_1(self):
         """
         The program should calculate the factorial of 1.

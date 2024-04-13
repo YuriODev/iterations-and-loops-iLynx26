@@ -5,4 +5,4 @@ while True:
         print(0)
         break
     print(number)
-    number = number % 10
+    number = number // 10

@@ -10,7 +10,7 @@ for i in range(cars):
         slowest_car = speed
     if speed > fastest_car:
         fastest_car = speed
-    if speed < 30:
+    if speed <= 30:
         cars_following_rules += 1
 
 print(fastest_car - slowest_car)

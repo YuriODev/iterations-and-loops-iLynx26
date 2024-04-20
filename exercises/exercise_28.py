@@ -1,1 +1,1 @@
-# Your solution to Exercise 28
+print(int(input()) * int(input()))

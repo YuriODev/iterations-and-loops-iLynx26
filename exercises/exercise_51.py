@@ -10,3 +10,5 @@ for i in range(number_1, number_2):
     i4 = i//1000
     if i1 == i2 == i3 or i1 == i2 == i4 or i2 == i3 == i4 or i1 == i3 == i4:
         output += f"{i} "
+
+print(output)

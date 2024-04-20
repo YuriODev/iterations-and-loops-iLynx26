@@ -2,14 +2,18 @@ n = int(input())
 
 output = 0
 
-for i in range(n):
-    if len(i) == 1:
+for i in range(1, n + 1):
+    original_number = i
+
+    reversed_number = 0
+
+    while original_number > 0:
+
+        digit = original_number % 10
+        reversed_number = reversed_number * 10 + digit
+        original_number //= 10
+
+    if i == reversed_number:
         output += 1
-    if len(i) == 2:
-        if n % 10 == n//10:
-            output += 1
-    if len(i) == 3:
-        if n % 10 == n//100:
-            output += 1
 
 print(output)

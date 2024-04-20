@@ -1,1 +1,8 @@
-# Your solution to Exercise 22
+number = int(input())
+
+while True:
+    if number == 0:
+        print(0)
+        break
+    print(number)
+    number = number // 10

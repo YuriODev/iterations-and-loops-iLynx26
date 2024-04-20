@@ -1,4 +1,4 @@
-numbers_bigger_then_next_number = 0
+numbers_bigger_then_next_number = 1
 
 current_number = 0
 previous_number = 0

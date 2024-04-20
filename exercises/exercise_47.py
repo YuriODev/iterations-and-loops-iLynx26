@@ -1,15 +1,17 @@
 n = int(input())
 
-output = ""
+output = 0
 
-for i in range(n):
-    if len(i) == 1:
-        output += i
-    if len(i) == 2:
-        if n % 10 == n//10:
-            output += i
-    if len(i) == 3:
-        if n % 10 == n//100:
-            output += i
+for i in range(1, n + 1):
+    original_number = i
 
-print(output)
+    reversed_number = 0
+
+    while original_number > 0:
+
+        digit = original_number % 10
+        reversed_number = reversed_number * 10 + digit
+        original_number //= 10
+
+    if i == reversed_number:
+        print(i, end=" ")
